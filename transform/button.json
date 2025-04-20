@@ -1,0 +1,97 @@
+{
+  "button": {
+    "border-radius": {
+      "value": "{semantic.border-radius.actions}",
+      "type": "borderRadius",
+      "failedToResolve": true
+    },
+    "border-width": {
+      "value": "{semantic.border-width.actions}",
+      "type": "borderWidth",
+      "failedToResolve": true
+    },
+    "font-family": {
+      "value": "{semantic.font-family.actions}",
+      "type": "fontFamilies",
+      "failedToResolve": true
+    },
+    "font-weight": {
+      "value": "{semantic.font-weight.actions}",
+      "type": "fontWeights",
+      "failedToResolve": true
+    },
+    "cta": {
+      "default": {
+        "background-color": {
+          "value": "{semantic.color.actions.cta.default.background-color}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "text-color": {
+          "value": "{semantic.color.actions.cta.default.text-color}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "border-color": {
+          "value": "{semantic.color.actions.cta.default.border-color}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "icon-color": {
+          "value": "{semantic.color.actions.cta.default.text-color}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "{semantic.color.actions.cta.hover.background-color}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "text-color": {
+          "value": "{semantic.color.actions.cta.hover.text-color}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "border-color": {
+          "value": "{semantic.color.actions.cta.hover.border-color}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "icon-color": {
+          "value": "{semantic.color.actions.cta.hover.text-color}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      }
+    },
+    "s": {
+      "text-size": {
+        "value": "{semantic.font-size.actions.s}",
+        "type": "fontSizes",
+        "failedToResolve": true
+      },
+      "padding-left": {
+        "value": "{semantic.spacing.actions.small.padding-left}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "padding-right": {
+        "value": "{semantic.spacing.actions.small.padding-right}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "icon-size": {
+        "value": "{semantic.sizing.actions.icon-size.small}",
+        "type": "sizing",
+        "failedToResolve": true
+      },
+      "height": {
+        "value": "{semantic.sizing.actions.small}",
+        "type": "sizing",
+        "failedToResolve": true
+      }
+    }
+  }
+}

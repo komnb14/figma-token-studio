@@ -1,0 +1,11 @@
+{
+  "name": "figma-token-studio",
+  "version": "1.0.0",
+  "scripts": {
+    "global": "token-transformer tokens.json transform/global.json global",
+    "button": "token-transformer tokens.json transform/button.json button",
+    "semantic":  "token-transformer tokens.json transform/semantic.json semantic",
+    "semantic-dark": "token-transformer tokens.json transform/semantic-dark.json semantic-dark",
+    "run": "npm run global && npm run button && npm run semantic && npm run semantic-dark"
+  }
+}
